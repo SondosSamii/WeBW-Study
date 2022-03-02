@@ -19,11 +19,7 @@
     font-size: 3.2625rem;
   }
 
-  header p {
-    font-size: 1.0125rem;
-  }
-
-  #home .dashboard {
+  .dashboard.first {
     right: -2rem;
     bottom: 2rem;
   }
@@ -54,11 +50,11 @@
     font-size: 2.9rem;
   }
 
-  header p {
-    font-size: 0.9rem;
+  .h-line::before {
+    left: calc(50% - 39.5px);
   }
 
-  #home .dashboard {
+  .dashboard.first {
     position: static;
   }
 }

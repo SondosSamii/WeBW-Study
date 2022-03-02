@@ -95,6 +95,14 @@ body {
   border: 1px solid #fff;
 }
 
+.learn-about {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 4.25;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
 header {
   color: #fff;
 }
@@ -108,9 +116,46 @@ header h2 {
   line-height: 1.17;
 }
 
+header h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.29;
+  color: var(--dark-text-color);
+  position: relative;
+}
+
+header h4 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 3.5;
+  color: var(--dark-text-color);
+  position: relative;
+}
+
+header h3::before,
+header h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 79px;
+  background-color: var(--primary-color);
+}
+
+header h3::before {
+  top: -1.5rem;
+  height: 5px;
+}
+
+header h4::after {
+  bottom: 0;
+  height: 3px;
+}
+
 header p {
-  font-size: 1.125rem;
-  line-height: 1.33;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--light-text-color);
 }
 
 .dashboard {
@@ -120,8 +165,22 @@ header p {
   overflow: hidden;
 }
 
-#home .dashboard {
+.dashboard.first {
   position: absolute;
   right: -5rem;
   bottom: 0;
+}
+
+.icon {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 0 #00000042;
+}
+
+.icon i:first-child {
+  padding-top: calc(50% - 12px);
+  padding-left: calc(50% - 12px);
 }
