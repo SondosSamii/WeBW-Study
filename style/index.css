@@ -171,6 +171,12 @@ header p {
   bottom: 0;
 }
 
+.dashboard.second {
+  position: absolute;
+  left: -15rem;
+  top: 0;
+}
+
 .icon {
   color: #fff;
   font-size: 1.5rem;
