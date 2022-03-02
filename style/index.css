@@ -95,22 +95,22 @@ body {
   border: 1px solid #fff;
 }
 
-.landing-heading {
+.landing-header {
   color: #fff;
   font-weight: 400;
 }
 
-.landing-heading header h1 {
+.landing-header header h1 {
   font-size: 1.5rem;
 }
 
-.landing-heading header h2 {
+.landing-header header h2 {
   font-size: 3.625rem;
   color: #fff;
   line-height: 1.17;
 }
 
-.landing-heading header p {
+.landing-header header p {
   font-size: 1.125rem;
   color: #fff;
   line-height: 1.33;
