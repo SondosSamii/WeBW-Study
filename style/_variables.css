@@ -1,24 +1,13 @@
 :root {
   --primary-font: "Poppins", sans-serif;
   --primary-color: #ff6057;
+  --secondary-color: #7c1c80a8;
+  --light-text-color: #8f8f8f;
+  --dark-text-color: #3b3a3a;
   --primary-gradient-color: linear-gradient(
     to left,
-    rgba(124, 28, 128, 0.66),
+    var(--secondary-color),
     var(--primary-color)
   );
   --stars-color: #cb48f9;
-}
-
-*,
-:before,
-:after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: var(--primary-font);
 }

@@ -39,7 +39,8 @@
       crossorigin="anonymous"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/media_queries.css" />
     <!-- Fontawesome -->
     <script
       src="https://kit.fontawesome.com/c028f56fe8.js"
@@ -47,7 +48,108 @@
     ></script>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <nav class="navbar navbar-expand-lg navbar-light container px-5">
+      <a class="navbar-brand" href="#"> ST<span>v</span>DY </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar"
+        aria-controls="navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars burger-icon"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Browser </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Boot Camps </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> How it Works </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Testimonial </a>
+          </li>
+        </ul>
+        <button class="btn about-us gradient">About Us</button>
+      </div>
+    </nav>
+
+    <div class="first-wave">
+      <img src="./images/first-wave.svg" />
+    </div>
+
+    <section class="container p-5" id="home">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-6 py-3 py-lg-5">
+          <header>
+            <h1>Advanced Platform</h1>
+            <h2>Take your team<br />to the next level</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod
+            </p>
+            <button class="btn about-us light">About Us</button>
+          </header>
+        </div>
+        <div
+          class="col-12 col-md-10 col-lg-6 py-3 py-lg-5"
+          style="position: relative"
+        >
+          <div class="dashboard">
+            <img
+              src="./images/dashboard.png"
+              class="img-fluid"
+              alt="Dashboard"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center py-5 my-3">
+        <div class="col-auto">
+          <img
+            src="./images/brands/shopify-logo.png"
+            class="img-fluid"
+            alt="Shopify Brand"
+          />
+        </div>
+        <div class="col-auto">
+          <img
+            src="./images/brands/nearpod-logo.png"
+            class="img-fluid"
+            alt="Nearpod Brand"
+          />
+        </div>
+        <div class="col-auto">
+          <img
+            src="./images/brands/bench-logo.png"
+            class="img-fluid"
+            alt="Bench Brand"
+          />
+        </div>
+        <div class="col-auto">
+          <img
+            src="./images/brands/forbes-logo.png"
+            class="img-fluid"
+            alt="Forbes Brand"
+          />
+        </div>
+        <div class="col-auto">
+          <img
+            src="./images/brands/bumble-logo.png"
+            class="img-fluid"
+            alt="Bumble Brand"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- jQuery -->
     <script
