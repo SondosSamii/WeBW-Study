@@ -11,3 +11,9 @@
   );
   --stars-color: #cb48f9;
 }
+
+@font-face {
+  font-family: "NuevaStd-Bold";
+  font-weight: bold;
+  src: url("../fonts/NuevaStd-Bold.otf") format("opentype");
+}

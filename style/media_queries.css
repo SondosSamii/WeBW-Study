@@ -51,7 +51,7 @@
   }
 
   header h3.h-line::before,
-  header h5::after {
+  header h5.h-line::after {
     left: calc(50% - 39.5px);
   }
 
@@ -62,5 +62,9 @@
   .dashboard.right,
   .dashboard.left {
     position: static;
+  }
+
+  footer label {
+    text-align: center;
   }
 }
