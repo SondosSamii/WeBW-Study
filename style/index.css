@@ -35,6 +35,20 @@ body {
   z-index: -1;
 }
 
+.left-wave {
+  position: absolute;
+  top: -20rem;
+  left: -30rem;
+  z-index: -1;
+}
+
+.right-wave {
+  position: absolute;
+  top: -20rem;
+  right: -42rem;
+  z-index: -1;
+}
+
 .navbar-light .navbar-toggler {
   border-color: transparent;
 }

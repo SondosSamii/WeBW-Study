@@ -1,0 +1,22 @@
+<svg
+  id="visual"
+  viewBox="0 0 1920 750"
+  width="1920"
+  height="950"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+>
+  <defs>
+    <linearGradient id="left-wave" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #ff6057; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #808080; stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M568 0L587.3 52.8C606.7 105.7 645.3 211.3 695.5 316.8C745.7 422.3 807.3 527.7 778.8 633.2C750.3 738.7 631.7 844.3 572.3 897.2L513 950L0 950L0 897.2C0 844.3 0 738.7 0 633.2C0 527.7 0 422.3 0 316.8C0 211.3 0 105.7 0 52.8L0 0Z"
+    fill="url(#left-wave)"
+    stroke-linecap="round"
+    stroke-linejoin="miter"
+  ></path>
+</svg>
