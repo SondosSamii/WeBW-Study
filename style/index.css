@@ -176,13 +176,13 @@ header p {
   overflow: hidden;
 }
 
-.dashboard.first {
+.dashboard.right {
   position: absolute;
   right: -5rem;
   bottom: 0;
 }
 
-.dashboard.second {
+.dashboard.left {
   position: absolute;
   left: -15rem;
   top: 0;

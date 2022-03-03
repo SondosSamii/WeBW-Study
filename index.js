@@ -1,7 +1,3 @@
-// $(document).ready(function () {
-//   $(".overview-carousel").owlCarousel();
-// });
-
 $(document).ready(function () {
   $(".overview-carousel").owlCarousel({
     loop: true,

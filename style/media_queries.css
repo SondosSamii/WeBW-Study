@@ -19,7 +19,7 @@
     font-size: 3.2625rem;
   }
 
-  .dashboard.first {
+  .dashboard.right {
     right: -2rem;
     bottom: 2rem;
   }
@@ -59,8 +59,8 @@
     margin: auto;
   }
 
-  .dashboard.first,
-  .dashboard.second {
+  .dashboard.right,
+  .dashboard.left {
     position: static;
   }
 }
