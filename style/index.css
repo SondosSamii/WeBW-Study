@@ -14,7 +14,6 @@ body {
   font-family: var(--primary-font);
   font-size: 1rem;
   font-weight: 600;
-  /* background-color: aquamarine; */
   position: relative;
   overflow-x: hidden;
 }
@@ -28,7 +27,6 @@ body {
   z-index: -1;
 }
 
-/* Navbar Style */
 .navbar-light .navbar-toggler {
   border-color: transparent;
 }
@@ -65,7 +63,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-size: 0.875;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #fff;
   padding-right: 0.75rem;
@@ -188,7 +186,7 @@ header p.feedback {
 }
 
 .dashboard {
-  border: 5px solid #fff;
+  border: 7px solid #fff;
   border-radius: 20px;
   box-shadow: 0 0 50px 0 #00000012;
   overflow: hidden;
