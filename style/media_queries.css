@@ -51,7 +51,7 @@
   }
 
   header h3::before,
-  header h4::after {
+  header h5::after {
     left: calc(50% - 39.5px);
   }
 

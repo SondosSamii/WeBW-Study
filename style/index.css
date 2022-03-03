@@ -136,6 +136,13 @@ header h3 {
 }
 
 header h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.04;
+  color: var(--dark-text-color);
+}
+
+header h5 {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 3.5;
@@ -144,7 +151,7 @@ header h4 {
 }
 
 header h3::before,
-header h4::after {
+header h5::after {
   content: "";
   position: absolute;
   left: 0;
@@ -157,7 +164,7 @@ header h3::before {
   height: 5px;
 }
 
-header h4::after {
+header h5::after {
   bottom: 0;
   height: 3px;
 }
@@ -234,4 +241,30 @@ header p {
 
 .owl-carousel button.owl-dot.active {
   background-color: var(--primary-color);
+}
+
+.steps .row {
+  align-items: baseline;
+}
+
+.steps .col-3 {
+  text-align: center;
+}
+
+.steps i {
+  width: 53px;
+  height: 53px;
+  color: #fff;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  vertical-align: middle;
+  padding-top: 17.5px;
+}
+
+.v-line {
+  content: "";
+  position: absolute;
+  height: 79px;
+  width: 3px;
+  background-color: #bcbcbc;
 }
