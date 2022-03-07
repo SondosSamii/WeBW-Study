@@ -336,7 +336,7 @@ header p.feedback {
 .outer-stars {
   display: inline-block;
   position: relative;
-  font-family: FontAwesome;
+  font-family: FontAwesome, sans-serif;
 }
 
 .outer-stars::before {
@@ -363,7 +363,7 @@ footer {
 }
 
 footer h2 {
-  font-family: "NuevaStd-Bold";
+  font-family: "NuevaStd-Bold", sans-serif;
   font-size: 3rem;
   font-weight: 600;
   line-height: 0.75;
