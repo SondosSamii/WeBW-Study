@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@import url(./_variables.css);
+@import url(../style/_variables.css);
 
 *,
 :before,
