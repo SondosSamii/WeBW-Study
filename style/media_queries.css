@@ -11,17 +11,37 @@
     font-size: 0.7875;
   }
 
+  .first-bg {
+    top: -6rem;
+    left: -15rem;
+  }
+
+  .left-bg {
+    top: -515px;
+    left: -1200px;
+  }
+
+  .right-bg {
+    top: -515px;
+    right: -1200px;
+  }
+
+  .dashboard.right {
+    top: 3rem;
+    right: -2rem;
+  }
+
+  .dashboard.left {
+    top: -1rem;
+    left: -10rem;
+  }
+
   .landing-header header h1 {
     font-size: 1.35rem;
   }
 
   .landing-header header h2 {
     font-size: 3.2625rem;
-  }
-
-  .dashboard.right {
-    right: -2rem;
-    bottom: 2rem;
   }
 
   .countfect {
@@ -43,7 +63,26 @@
   }
 
   .navbar-light .navbar-nav .nav-link {
-    font-size: 0.7;
+    font-size: 0.7rem;
+  }
+
+  .first-bg {
+    top: -15rem;
+    left: -25rem;
+  }
+
+  .left-bg {
+    left: -1300px;
+  }
+
+  .right-bg {
+    right: -1300px;
+  }
+
+  .dashboard.left {
+    top: 2rem;
+    left: -7rem;
+    right: -3rem;
   }
 
   header:not(.feedback-container header) {
@@ -67,20 +106,6 @@
     margin: auto;
   }
 
-  .dashboard.right,
-  .dashboard.left {
-    position: static;
-  }
-
-  .left-wave {
-    left: -43rem;
-  }
-
-  .right-wave {
-    top: -12rem;
-    right: -45rem;
-  }
-
   .countfect {
     font-size: 2.3rem;
   }
@@ -89,12 +114,31 @@
     font-size: 1rem;
   }
 
+  footer p.services {
+    padding-right: 3rem;
+  }
+
   footer label {
     text-align: center;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .left-bg {
+    top: -730px;
+    left: -1400px;
+  }
+
+  .right-bg {
+    top: -750px;
+    right: -1450px;
+  }
+
+  .dashboard.right,
+  .dashboard.left {
+    position: static;
+  }
+
   .landing-header header h2 {
     font-size: 2rem;
   }
