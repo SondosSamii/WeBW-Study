@@ -79,6 +79,11 @@
     right: -1300px;
   }
 
+  .dashboard.right,
+  .dashboard.left {
+    position: static;
+  }
+
   .dashboard.left {
     top: 2rem;
     left: -7rem;
@@ -132,11 +137,6 @@
   .right-bg {
     top: -750px;
     right: -1450px;
-  }
-
-  .dashboard.right,
-  .dashboard.left {
-    position: static;
   }
 
   .landing-header header h2 {
